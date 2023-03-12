@@ -1,23 +1,23 @@
 body {
-  background pink;
+  background: pink; /* corrected syntax error: missing colon after "background" */
 }
 
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 3em; /* corrected typo: "fontsize" to "font-size" */
 }
 
 h2 {
   color: green;
-  font-weight: normal
+  font-weight: normal; /* added missing semicolon and corrected typo: "backgound" to "background" */
   font-style: italic;
 }
 
 .completed {
-  font-family: 12px;
+  font-size: 12px; /* corrected typo: "font-family" to "font-size" */
 }
 
 #tasks .completed {
-  backgound: #ccc;
+  background: #ccc;
   text-decoration: underline;
 }
